@@ -53,6 +53,7 @@ gulp.task('compass', function() {
       style: sassStyle
     })
     .on('error', gutil.log))
+    
     .pipe(gulp.dest(outputDir+'css'))
 });
 
