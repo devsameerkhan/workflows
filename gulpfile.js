@@ -29,7 +29,7 @@ jsSources = [
   'components/scripts/tagline.js',
   'components/scripts/template.js'
 ];
-sassSources = ['components/sass/style.scss'];
+sassSources = ['components/sass/styles.scss'];
 
 gulp.task('coffee', function() {
   gulp.src(coffeeSources)
@@ -53,7 +53,7 @@ gulp.task('compass', function() {
       style: sassStyle
     })
     .on('error', gutil.log))
-    
+
     .pipe(gulp.dest(outputDir+'css'))
 });
 
