@@ -14,13 +14,15 @@
     "gulp-browserify": "^0.5.1",
     "gulp-coffee": "^3.0.2",
     "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.2.0",
+    "gulp-if": "^2.0.2",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-mustache": "^3.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
     "jquery": "^3.2.1",
     "mustache": "^2.3.0"
   },
-  "dependencies": {
-    "gulp-concat": "^2.6.1",
-    "gulp-mustache": "^3.0.1"
-  }
+  "dependencies": {}
 }
